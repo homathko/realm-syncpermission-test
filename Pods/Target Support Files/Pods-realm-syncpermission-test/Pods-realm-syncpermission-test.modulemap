@@ -1,0 +1,6 @@
+framework module Pods_realm_syncpermission_test {
+  umbrella header "Pods-realm-syncpermission-test-umbrella.h"
+
+  export *
+  module * { export * }
+}

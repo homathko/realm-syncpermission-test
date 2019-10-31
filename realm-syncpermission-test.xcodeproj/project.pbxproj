@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103FB86A236B5C8E0029FC0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FB869236B5C8E0029FC0E /* AppDelegate.swift */; };
+		103FB871236B5C8F0029FC0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 103FB870236B5C8F0029FC0E /* Assets.xcassets */; };
+		108F7C9D236B62AF00315DAD /* SyncPermissionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FB87E236B5C8F0029FC0E /* SyncPermissionTest.swift */; };
+		6E5BDD40FB471BAF4AEFF0EB /* Pods_realm_syncpermission_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E173ED32B9AD16B7E5731E /* Pods_realm_syncpermission_testTests.framework */; };
+		AF85CAFC8A01B1EE08C451FC /* Pods_realm_syncpermission_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5487ABF560929C6B99DCC77E /* Pods_realm_syncpermission_test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		103FB87B236B5C8F0029FC0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 103FB85E236B5C8E0029FC0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103FB865236B5C8E0029FC0E;
+			remoteInfo = "realm-syncpermission-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		103FB866236B5C8E0029FC0E /* realm-syncpermission-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "realm-syncpermission-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		103FB869236B5C8E0029FC0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		103FB870236B5C8F0029FC0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		103FB875236B5C8F0029FC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		103FB87A236B5C8F0029FC0E /* realm-syncpermission-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "realm-syncpermission-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		103FB87E236B5C8F0029FC0E /* SyncPermissionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncPermissionTest.swift; sourceTree = "<group>"; };
+		103FB880236B5C8F0029FC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284099A828569EB2CDFC5162 /* Pods-realm-syncpermission-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-syncpermission-testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realm-syncpermission-testTests/Pods-realm-syncpermission-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5487ABF560929C6B99DCC77E /* Pods_realm_syncpermission_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realm_syncpermission_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FC595CAD403877280BF4C1 /* Pods-realm-syncpermission-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-syncpermission-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realm-syncpermission-test/Pods-realm-syncpermission-test.debug.xcconfig"; sourceTree = "<group>"; };
+		93E173ED32B9AD16B7E5731E /* Pods_realm_syncpermission_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realm_syncpermission_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2D1449C40B088A62917259 /* Pods-realm-syncpermission-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-syncpermission-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-realm-syncpermission-test/Pods-realm-syncpermission-test.release.xcconfig"; sourceTree = "<group>"; };
+		FCAA033AB488FBF4229059D3 /* Pods-realm-syncpermission-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-syncpermission-testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-realm-syncpermission-testTests/Pods-realm-syncpermission-testTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		103FB863236B5C8E0029FC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF85CAFC8A01B1EE08C451FC /* Pods_realm_syncpermission_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103FB877236B5C8F0029FC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5BDD40FB471BAF4AEFF0EB /* Pods_realm_syncpermission_testTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103FB85D236B5C8E0029FC0E = {
+			isa = PBXGroup;
+			children = (
+				103FB868236B5C8E0029FC0E /* realm-syncpermission-test */,
+				103FB87D236B5C8F0029FC0E /* realm-syncpermission-testTests */,
+				103FB867236B5C8E0029FC0E /* Products */,
+				F6B86F3C4094C336CC127270 /* Pods */,
+				280C2F0FC7706F94B31BFFAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		103FB867236B5C8E0029FC0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				103FB866236B5C8E0029FC0E /* realm-syncpermission-test.app */,
+				103FB87A236B5C8F0029FC0E /* realm-syncpermission-testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		103FB868236B5C8E0029FC0E /* realm-syncpermission-test */ = {
+			isa = PBXGroup;
+			children = (
+				103FB869236B5C8E0029FC0E /* AppDelegate.swift */,
+				103FB870236B5C8F0029FC0E /* Assets.xcassets */,
+				103FB875236B5C8F0029FC0E /* Info.plist */,
+			);
+			path = "realm-syncpermission-test";
+			sourceTree = "<group>";
+		};
+		103FB87D236B5C8F0029FC0E /* realm-syncpermission-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				103FB87E236B5C8F0029FC0E /* SyncPermissionTest.swift */,
+				103FB880236B5C8F0029FC0E /* Info.plist */,
+			);
+			path = "realm-syncpermission-testTests";
+			sourceTree = "<group>";
+		};
+		280C2F0FC7706F94B31BFFAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5487ABF560929C6B99DCC77E /* Pods_realm_syncpermission_test.framework */,
+				93E173ED32B9AD16B7E5731E /* Pods_realm_syncpermission_testTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6B86F3C4094C336CC127270 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84FC595CAD403877280BF4C1 /* Pods-realm-syncpermission-test.debug.xcconfig */,
+				CD2D1449C40B088A62917259 /* Pods-realm-syncpermission-test.release.xcconfig */,
+				284099A828569EB2CDFC5162 /* Pods-realm-syncpermission-testTests.debug.xcconfig */,
+				FCAA033AB488FBF4229059D3 /* Pods-realm-syncpermission-testTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		103FB865236B5C8E0029FC0E /* realm-syncpermission-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103FB883236B5C8F0029FC0E /* Build configuration list for PBXNativeTarget "realm-syncpermission-test" */;
+			buildPhases = (
+				EC8C0205AC516A5E137999CF /* [CP] Check Pods Manifest.lock */,
+				103FB862236B5C8E0029FC0E /* Sources */,
+				103FB863236B5C8E0029FC0E /* Frameworks */,
+				103FB864236B5C8E0029FC0E /* Resources */,
+				68370BDD32E6025741A10B58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "realm-syncpermission-test";
+			productName = "realm-syncpermission-test";
+			productReference = 103FB866236B5C8E0029FC0E /* realm-syncpermission-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		103FB879236B5C8F0029FC0E /* realm-syncpermission-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 103FB886236B5C8F0029FC0E /* Build configuration list for PBXNativeTarget "realm-syncpermission-testTests" */;
+			buildPhases = (
+				D0EA65ED20D0B8D0293A7B1E /* [CP] Check Pods Manifest.lock */,
+				103FB876236B5C8F0029FC0E /* Sources */,
+				103FB877236B5C8F0029FC0E /* Frameworks */,
+				103FB878236B5C8F0029FC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				103FB87C236B5C8F0029FC0E /* PBXTargetDependency */,
+			);
+			name = "realm-syncpermission-testTests";
+			productName = "realm-syncpermission-testTests";
+			productReference = 103FB87A236B5C8F0029FC0E /* realm-syncpermission-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		103FB85E236B5C8E0029FC0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = HomathkoTech;
+				TargetAttributes = {
+					103FB865236B5C8E0029FC0E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					103FB879236B5C8F0029FC0E = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 103FB865236B5C8E0029FC0E;
+					};
+				};
+			};
+			buildConfigurationList = 103FB861236B5C8E0029FC0E /* Build configuration list for PBXProject "realm-syncpermission-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 103FB85D236B5C8E0029FC0E;
+			productRefGroup = 103FB867236B5C8E0029FC0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				103FB865236B5C8E0029FC0E /* realm-syncpermission-test */,
+				103FB879236B5C8F0029FC0E /* realm-syncpermission-testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		103FB864236B5C8E0029FC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103FB871236B5C8F0029FC0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103FB878236B5C8F0029FC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68370BDD32E6025741A10B58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-realm-syncpermission-test/Pods-realm-syncpermission-test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realm-syncpermission-test/Pods-realm-syncpermission-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0EA65ED20D0B8D0293A7B1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-realm-syncpermission-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8C0205AC516A5E137999CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-realm-syncpermission-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		103FB862236B5C8E0029FC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103FB86A236B5C8E0029FC0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		103FB876236B5C8F0029FC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108F7C9D236B62AF00315DAD /* SyncPermissionTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		103FB87C236B5C8F0029FC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 103FB865236B5C8E0029FC0E /* realm-syncpermission-test */;
+			targetProxy = 103FB87B236B5C8F0029FC0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		103FB881236B5C8F0029FC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		103FB882236B5C8F0029FC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		103FB884236B5C8F0029FC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FC595CAD403877280BF4C1 /* Pods-realm-syncpermission-test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "realm-syncpermission-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ht.realm-syncpermission-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		103FB885236B5C8F0029FC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2D1449C40B088A62917259 /* Pods-realm-syncpermission-test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "realm-syncpermission-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ht.realm-syncpermission-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		103FB887236B5C8F0029FC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284099A828569EB2CDFC5162 /* Pods-realm-syncpermission-testTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "realm-syncpermission-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ht.realm-syncpermission-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realm-syncpermission-test.app/realm-syncpermission-test";
+			};
+			name = Debug;
+		};
+		103FB888236B5C8F0029FC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCAA033AB488FBF4229059D3 /* Pods-realm-syncpermission-testTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "realm-syncpermission-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ht.realm-syncpermission-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realm-syncpermission-test.app/realm-syncpermission-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		103FB861236B5C8E0029FC0E /* Build configuration list for PBXProject "realm-syncpermission-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103FB881236B5C8F0029FC0E /* Debug */,
+				103FB882236B5C8F0029FC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103FB883236B5C8F0029FC0E /* Build configuration list for PBXNativeTarget "realm-syncpermission-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103FB884236B5C8F0029FC0E /* Debug */,
+				103FB885236B5C8F0029FC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		103FB886236B5C8F0029FC0E /* Build configuration list for PBXNativeTarget "realm-syncpermission-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103FB887236B5C8F0029FC0E /* Debug */,
+				103FB888236B5C8F0029FC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 103FB85E236B5C8E0029FC0E /* Project object */;
+}
