@@ -185,8 +185,8 @@ class SyncPermissionTest: XCTestCase {
     }
     
     func exchangePermissionToReadEachOthersRealms () {
-        let exp_UserAGivesReadPermissionToUserB = XCTestExpectation(description: "\(userAName) gives read permission to \(userBName)'s realm")
-        let exp_UserBGivesReadPermissionToUserA = XCTestExpectation(description: "\(userBName) gives read permission to \(userAName)'s realm")
+        let exp_UserAGivesReadPermissionToUserB = XCTestExpectation(description: "\(userAName) gives read permission to \(userBName)")
+        let exp_UserBGivesReadPermissionToUserA = XCTestExpectation(description: "\(userBName) gives read permission to \(userAName)")
         
         let userARealmURLStringToGivePermissionTo = "/\(userAId)/\(realmName)"
         let permissionToA = SyncPermission(realmPath: userARealmURLStringToGivePermissionTo, identity: userBId, accessLevel: .admin)
